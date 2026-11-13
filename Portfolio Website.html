@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cem Yalcin — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="site-wrapper">
+
+    <aside class="sidebar">
+      <div class="profile">
+        <img src="avatar.jpg" alt="Cem Yalcin avatar" class="avatar" />
+        <h1 class="name">Cem Yalcin</h1>
+        <p class="role">Front-End Enthusiast • UI Lover</p>
+      </div>
+
+      <nav class="side-nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#github">GitHub</a></li>
+          <li><a href="#cv">CV</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="social">
+        <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </aside>
+
+    <main class="content">
+      <section id="home" class="hero">
+        <div class="hero-text">
+          <h2>Hi, I’m Cem</h2>
+          <p>I build thoughtful, accessible web interfaces. I enjoy turning ideas into clean, responsive pages and experimenting with small interactive details.</p>
+          <div class="hero-cta">
+            <a class="btn" href="#projects">See Projects</a>
+            <a class="btn ghost" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="mockup"> <!-- decorative placeholder for a screenshot or illustration -->
+            <span>portfolio snapshot</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="panel">
+        <h3>About Me</h3>
+        <p>I focus on front-end development (HTML, CSS, JavaScript) and enjoy clean, user-friendly UI. I’m practicing responsive design, performance basics, and accessible components.</p>
+
+        <div class="wins">
+          <div class="win">
+            <strong>Languages</strong>
+            <span>HTML • CSS • JavaScript</span>
+          </div>
+          <div class="win">
+            <strong>Tools</strong>
+            <span>Git • VS Code • Chrome DevTools</span>
+          </div>
+          <div class="win">
+            <strong>Interests</strong>
+            <span>Web design, micro-interactions, visual storytelling</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="panel">
+        <h3>Gallery & Projects</h3>
+        <p>Below are visual cards representing skills and interests — each card could link to a project page or GitHub repo.</p>
+
+        <div class="gallery">
+          <article class="card">
+            <img src="office1.jpg" alt="clean desk with laptop" />
+            <div class="card-body">
+              <h4>Responsive Layouts</h4>
+              <p>Designing grid and flex-based interfaces that adapt to all screens.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="office2.jpg" alt="browser and code" />
+            <div class="card-body">
+              <h4>UI Prototyping</h4>
+              <p>Rapid prototypes to validate designs and interactions.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="office3.jpg" alt="color palette and design notes" />
+            <div class="card-body">
+              <h4>Visual Systems</h4>
+              <p>Creating consistent color systems and typography scales.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="office4.jpg" alt="responsive mockups" />
+            <div class="card-body">
+              <h4>Accessibility</h4>
+              <p>Building accessible components with semantic HTML and good contrast.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="office5.jpg" alt="interaction design sketches" />
+            <div class="card-body">
+              <h4>Micro-interactions</h4>
+              <p>Small motion that improves feedback and delight.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="office6.jpg" alt="cinema tickets and film poster" />
+            <div class="card-body">
+              <h4>Free Time — Film Lover</h4>
+              <p>Since childhood I’ve loved watching films — storytelling inspires my design choices.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="github" class="panel">
+        <h3>GitHub & Projects List</h3>
+        <p>My repos include coursework, small UI experiments, and the projects from this course (HTML/CSS assignments). Visit my profile for live code and repo README files describing each course project.</p>
+<p><a href="https://github.com/cemdyalcin25" target="_blank" rel="noopener">github.com/cemdyalcin25</a></p>
+      </section>
+
+      <section id="cv" class="panel">
+        <h3>Download CV</h3>
+        <p>Download my résumé/CV (PDF).</p>
+        <a class="cv-download" href="documents/cemyalcincv.pdf" download>📄 Download CV</a>
+      </section>
+
+      <section id="contact" class="panel">
+        <h3>Contact</h3>
+        <p>If you'd like to review my portfolio for the course, please contact me or use the form below.</p>
+
+        <form action="mailto:youremail@example.com" method="POST" enctype="text/plain" class="contact-form">
+          <label for="name">Name</label>
+          <input id="name" name="name" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </section>
+
+      <footer class="site-footer">
+        <small>&copy; 2026 Cem Yalcin — Portfolio</small>
+      </footer>
+    </main>
+
+  </div>
+</body>
+</html>
